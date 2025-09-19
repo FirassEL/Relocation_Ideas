@@ -6,10 +6,12 @@ This repository outlines two project ideas focused on leveraging open data and a
 
 ## 1. Immigration Policy Tracking (State Department)
 
-We built a script that:
-- Fetches documents from the **Federal Register API** for the U.S. State Department.  
+Built a script that:
+- Fetches documents from the **Federal Register API** for the U.S. State Department.
+- Filters may be used to focus on other agencies  
 - Extracts the **full text** and the **SUPPLEMENTARY INFORMATION** section.  
 - Searches across all content for keywords (e.g., *visa types, immigration terms, regions*).  
+- Other searches may include a doc number, which if updated in the future allows us to track any new changes or rullings in the future. 
 - Saves matched documents with metadata to JSON or a database.  
 
 **Automation:**  
