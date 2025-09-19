@@ -37,7 +37,6 @@ Using open datasets (e.g., SF Gov, SchoolDigger, etc.), we can:
 ## Example Visualization
 
 ![Example Map](newplot.png)  
-*(Replace `example.png` with your PNG)*
 
 ---
 
